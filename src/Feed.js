@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
 import TweetBox from "./ProfileTweet";
 import Post from "./Tweet";
-
-
 import FlipMove from "react-flip-move";
 
 function Feed() {
   const [posts, setPosts] = useState([]);
-
-
 
   return (
     <div className="no-scrollbar grow border-right border-color-#F5F8FA overflow-y-scroll min-w-fit ">
@@ -29,7 +25,9 @@ function Feed() {
             avatar={post.avatar}
             image={post.image}
           />
+
         ))}
+        
       </FlipMove>
     </div>
   );
