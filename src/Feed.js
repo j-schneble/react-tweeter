@@ -12,8 +12,8 @@ function Feed() {
 
   return (
     <div className="no-scrollbar grow border-right border-color-#F5F8FA overflow-y-scroll min-w-fit ">
-      <div className="sticky top-0 bg-white z-100 pl-3.5 pr-2 border  border-color-#F5F8FA  ">
-        <h2 className='text-md pt-5 px-5 text-center text-xl pb-5 font-bold'>Home</h2>
+      <div className="sticky top-0  z-100 pl-3.5 pr-2   ">
+        <h2 className='px-5 pt-5 pb-5 text-2xl font-bold text-center text-md'>Home</h2>
       </div>
 
       <TweetBox />

@@ -10,12 +10,12 @@ import SearchIcon from "@material-ui/icons/Search";
 function Widgets() {
   return (
     <div className="">
-      <div className="mt-2 rounded-full ml-6 p-5 bg-twitter-white">
-        <SearchIcon className='ml-10 text-black' />
+      <div className="p-5 mt-2 ml-6 rounded-full bg-twitter-white">
+        <SearchIcon className='p-5 ml-10 text-black bg-twitter-white' />
         <input placeholder="Search Twitter" type="text" />
       </div>
 
-      <div className=" text-black font-bold text-xl text-center bg-twitter-white mt-4 ml-5 rounded-lg pt-2 px-20">
+      <div className="px-20 pt-2 mt-4 ml-5 text-xl font-bold text-center text-black rounded-lg bg-twitter-white">
         <h2>What's happening</h2>
 
         <TwitterTweetEmbed tweetId={"1555298046254120966"} />
