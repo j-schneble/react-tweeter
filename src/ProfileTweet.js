@@ -45,14 +45,14 @@ function TweetBox() {
         <input 
           value={tweetImage}
           onChange={(e) => setTweetImage(e.target.value)}
-          className=" p-4 ml-20 w-60 rounded-lg"
+          className="p-4 ml-20 rounded-lg w-60"
           placeholder="Optional: Enter image URL"
           type="text"
         />
 
         </div>
         <div className=
-        'bg-twitter-blue items-center text-white w-50 h-8 ml-20 mt-4 rounded-full'
+        'items-center h-8 mt-4 ml-20 text-white rounded-full bg-twitter-blue w-50'
         >
         <Button
           onClick={sendTweet}
@@ -60,7 +60,7 @@ function TweetBox() {
           className="text-white"
         >
           <p className=
-          'text-white ml-24 tracking-wider text-sm'
+          'ml-24 text-sm font-bold tracking-wider text-white'
           >Tweet</p>
         </Button>
         </div>
