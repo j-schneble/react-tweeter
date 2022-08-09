@@ -26,7 +26,9 @@ const Post = forwardRef(
               </h3>
             </div>
             <div >
-              <p>{text}</p>
+              <p>
+              {text}
+              </p>
             </div>
           </div>
           <img src={image} alt="" />
