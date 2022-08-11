@@ -13,7 +13,7 @@ import { Button } from "@material-ui/core";
 
 function Sidebar() {
   return (
-    <div className="flex-initial pt-10 pr-20  bg-twitter-white pl-28 w-xl">
+    <div className="flex-initial pt-10 pr-20 bg-twitter-white pl-28 w-xl">
    <TwitterIcon className="mb-10 ml-20 text-twitter-blue " />
       <SidebarOption active Icon={HomeIcon} text="Home" />
       <SidebarOption Icon={SearchIcon} text="Explore" />
@@ -25,7 +25,7 @@ function Sidebar() {
       <SidebarOption Icon={MoreHorizIcon} text="More" />
 
       {/* Button -> Tweet */}
-     <div variant="outlined" className='mt-10 text-xl font-bold text-white rounded-full bg-twitter-blue'>
+     <div variant="outlined" className='mt-10 text-2xl font-bold text-white rounded-full bg-twitter-blue'>
       <Button  fullWidth>
         <p className='text-base font-bold tracking-wider text-white'>Tweet</p>
       </Button>
