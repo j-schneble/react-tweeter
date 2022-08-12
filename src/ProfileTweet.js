@@ -28,7 +28,7 @@ function TweetBox() {
   return (
     <div className="tweet">
       <form>
-        <div className="flex p-2 mt-6">
+        <div className="flex p-2 mt-5">
 
           <Avatar src="/images/profile.png" />
 
