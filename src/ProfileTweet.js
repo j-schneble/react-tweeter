@@ -38,7 +38,6 @@ function TweetBox() {
             placeholder="What's happening?"
             type="text"
           />
-
         </div>
         <div className='flex p-2' >
         <input 
