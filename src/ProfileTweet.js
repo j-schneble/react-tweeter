@@ -41,7 +41,6 @@ function TweetBox() {
 
         </div>
         <div className='flex p-2' >
-
         <input 
           value={tweetImage}
           onChange={(e) => setTweetImage(e.target.value)}
@@ -49,7 +48,6 @@ function TweetBox() {
           placeholder="Optional: Enter image URL"
           type="text"
         />
-
         </div>
         <div className=
         'items-center h-8 mt-4 ml-20 text-white rounded-full bg-twitter-blue w-50'
