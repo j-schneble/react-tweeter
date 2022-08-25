@@ -60,7 +60,6 @@ function TweetBox() {
           'ml-24 text-sm font-bold tracking-wider text-white'
           >Tweet</p>
         </Button>
-        
         </div>
       </form>
     </div>
